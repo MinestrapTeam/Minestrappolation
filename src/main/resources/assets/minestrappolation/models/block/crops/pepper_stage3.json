@@ -1,0 +1,7 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "minestrappolation:block/crop/pepper_3"
+    },
+    "render_type": "cutout"
+}

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minestrappolation:coldstone",
+    "minestrappolation:cobble_coldstone",
+    "minestrappolation:deep_coldstone",
+    "minestrappolation:cobble_deep_coldstone",
+    "minestrappolation:redrock",
+    "minestrappolation:cobble_redrock",
+    "minestrappolation:deep_redrock",
+    "minestrappolation:cobble_deep_redrock",
+    "minestrappolation:icestone",
+    "minestrappolation:cobble_icestone",
+    "minestrappolation:glacierstone",
+    "minestrappolation:cobble_glacierstone",
+    "minestrappolation:oceanstone",
+    "minestrappolation:cobble_oceanstone",
+    "minestrappolation:deep_oceanstone",
+    "minestrappolation:cobble_deep_oceanstone",
+    "minestrappolation:salt_ore",
+    "minestrappolation:meurodite_ore",
+    "minestrappolation:torite_ore",
+    "minestrappolation:tin_ore",
+    "minestrappolation:titanium_ore"
+  ]
+}

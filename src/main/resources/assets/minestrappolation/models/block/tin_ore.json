@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "minestrappolation:block/ore/ore_tin_stone"
+    }
+}

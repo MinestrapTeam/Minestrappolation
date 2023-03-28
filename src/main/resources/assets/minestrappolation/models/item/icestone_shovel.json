@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minestrappolation:item/tools/icestone_shovel"
+    }
+}

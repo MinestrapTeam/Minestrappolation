@@ -1,0 +1,7 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "minestrappolation:block/crop/tomato_4"
+    },
+    "render_type": "cutout"
+}
