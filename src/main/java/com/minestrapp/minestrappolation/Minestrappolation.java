@@ -1,6 +1,7 @@
 package com.minestrapp.minestrappolation;
 
 import com.minestrapp.minestrappolation.init.Blocks;
+import com.minestrapp.minestrappolation.init.ClientInit;
 import com.minestrapp.minestrappolation.init.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,7 +28,6 @@ public class Minestrappolation {
 
     private void setup(final FMLCommonSetupEvent event){
         IEventBus bus = MinecraftForge.EVENT_BUS;
-
     }
 
 

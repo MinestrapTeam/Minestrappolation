@@ -2,6 +2,7 @@ package com.minestrapp.minestrappolation.init;
 
 import com.minestrapp.minestrappolation.Minestrappolation;
 import com.minestrapp.minestrappolation.blocks.BlockBase;
+import com.minestrapp.minestrappolation.blocks.BlockBush;
 import com.minestrapp.minestrappolation.blocks.crops.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -45,13 +46,17 @@ public class Blocks {
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
 
-    //CROPS
+    //CROPS and Plants
     public static final RegistryObject<Block> CABBAGE_CROP = BLOCKS.register("crop_cabbage", () ->(new CropCabbage(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> CELERY_CROP = BLOCKS.register("crop_celery", () ->(new CropCelery(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> PEPPER_CROP = BLOCKS.register("crop_pepper", () ->(new CropPepper(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("crop_tomato", () ->(new CropTomato(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> ONION_CROP = BLOCKS.register("crop_onion", () ->(new CropOnion(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> PEANUT_CROP = BLOCKS.register("crop_peanuts", () ->(new CropPeanut(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
+
+    public static final RegistryObject<Block> BLUEBERRY_BUSH = BLOCKS.register("blueberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.BLUEBERRY));
+    public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.BLACKBERRY));
+    public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.STRAWBERRY));
 
 
     public static final RegistryObject<Item> COLDSTONE_BLOCKITEM = registerBlockItem(COLDSTONE);

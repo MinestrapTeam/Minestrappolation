@@ -1,4 +1,4 @@
-package com.minestrapp.minestrappolation;
+package com.minestrapp.minestrappolation.init;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
