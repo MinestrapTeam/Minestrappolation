@@ -32,8 +32,8 @@ public class Items {
     public static final RegistryObject<Item> SEEDS_TOMATO = ITEMS.register("tomato_seeds", () -> new ItemNameBlockItem(Blocks.TOMATO_CROP.get(), (new Item.Properties())));
     public static final RegistryObject<Item> FRIES = ITEMS.register("fries", () -> new ItemBase(new Item.Properties().food(Foods.FRIES_NUTRITION)));
     public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry", () -> new ItemNameBlockItem(Blocks.BLUEBERRY_BUSH.get(), (new Item.Properties())));
-    public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry", () -> new ItemNameBlockItem(Blocks.BLUEBERRY_BUSH.get(), (new Item.Properties())));
-    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", () -> new ItemNameBlockItem(Blocks.BLUEBERRY_BUSH.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> BLACKBERRY = ITEMS.register("blackberry", () -> new ItemNameBlockItem(Blocks.BLACKBERRY_BUSH.get(), (new Item.Properties())));
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", () -> new ItemNameBlockItem(Blocks.STRAWBERRY_BUSH.get(), (new Item.Properties())));
     public static final RegistryObject<Item> SALTED_CHICKEN = ITEMS.register("salted_chicken", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_CHICKEN_NUTRITION)));
     public static final RegistryObject<Item> SALTED_MUTTON = ITEMS.register("salted_mutton", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_MUTTON_NUTRITION)));
     public static final RegistryObject<Item> SALTED_PORKCHOP = ITEMS.register("salted_porkchop", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_PORKCHOP_NUTRITION)));

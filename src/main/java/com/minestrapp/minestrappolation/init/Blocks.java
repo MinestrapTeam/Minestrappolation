@@ -58,7 +58,6 @@ public class Blocks {
     public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.BLACKBERRY));
     public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.STRAWBERRY));
 
-
     public static final RegistryObject<Item> COLDSTONE_BLOCKITEM = registerBlockItem(COLDSTONE);
     public static final RegistryObject<Item> COBBLE_COLDSTONE_BLOCKITEM = registerBlockItem(COBBLE_COLDSTONE);
     public static final RegistryObject<Item> DEEP_COLDSTONE_BLOCKITEM = registerBlockItem(DEEP_COLDSTONE);
