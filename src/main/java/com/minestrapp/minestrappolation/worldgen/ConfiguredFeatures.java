@@ -1,13 +1,14 @@
 package com.minestrapp.minestrappolation.worldgen;
 
 import com.minestrapp.minestrappolation.Minestrappolation;
-import com.minestrapp.minestrappolation.init.Blocks;
+import com.minestrapp.minestrappolation.init.MBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
@@ -37,30 +38,35 @@ public class ConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TORITE_ORE_KEY = registerKey("torite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TIN_ORE_KEY = registerKey("tin_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TITANIUM_ORE_KEY = registerKey("titanium_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_BLAZIUM_ORE_KEY = registerKey("blazium_ore");
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLUEBERRY_BUSH_KEY = registerKey("blueberry_bush");
     public static final ResourceKey<ConfiguredFeature<?, ?>> BLACKBERRY_BUSH_KEY = registerKey("blackberry_bush");
     public static final ResourceKey<ConfiguredFeature<?, ?>> STRAWBERRY_BUSH_KEY = registerKey("strawberry_bush");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> RASPBERRY_BUSH_KEY = registerKey("raspberry_bush");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context){
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest netherReplaceable = new BlockMatchTest(Blocks.NETHERRACK);
         RuleTest deepslateReplaceable = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
 
-        List<OreConfiguration.TargetBlockState> overworld_Coldstone = List.of(OreConfiguration.target(stoneReplaceable, Blocks.COLDSTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_deep_Coldstone = List.of(OreConfiguration.target(deepslateReplaceable, Blocks.DEEP_COLDSTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_redrock = List.of(OreConfiguration.target(stoneReplaceable, Blocks.REDROCK.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_deep_redrock = List.of(OreConfiguration.target(deepslateReplaceable, Blocks.DEEP_REDROCK.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_icestone = List.of(OreConfiguration.target(stoneReplaceable, Blocks.ICESTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_glacierstone = List.of(OreConfiguration.target(deepslateReplaceable, Blocks.GLACIERSTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_oceanstone = List.of(OreConfiguration.target(stoneReplaceable, Blocks.OCEANSTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_deep_oceanstone = List.of(OreConfiguration.target(deepslateReplaceable, Blocks.DEEP_OCEANSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_Coldstone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.COLDSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_deep_Coldstone = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.DEEP_COLDSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_redrock = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.REDROCK.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_deep_redrock = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.DEEP_REDROCK.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_icestone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.ICESTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_glacierstone = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.GLACIERSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_oceanstone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.OCEANSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_deep_oceanstone = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.DEEP_OCEANSTONE.get().defaultBlockState()));
 
-        List<OreConfiguration.TargetBlockState> overworld_salt_ore = List.of(OreConfiguration.target(stoneReplaceable, Blocks.SALT_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_meurodite_ore = List.of(OreConfiguration.target(stoneReplaceable, Blocks.MEURODITE_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_torite_ore = List.of(OreConfiguration.target(stoneReplaceable, Blocks.TORITE_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_tin_ore = List.of(OreConfiguration.target(stoneReplaceable, Blocks.TIN_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_titanium_ore = List.of(OreConfiguration.target(stoneReplaceable, Blocks.TITANIUM_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_salt_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.SALT_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_meurodite_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.MEURODITE_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_torite_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TORITE_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_tin_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TIN_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_titanium_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TITANIUM_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> nether_blazium_ore = List.of(OreConfiguration.target(netherReplaceable, MBlocks.BLAZIUM_ORE.get().defaultBlockState()));
 
         register(context, OVERWORLD_COLDSTONE_KEY, Feature.ORE, new OreConfiguration(overworld_Coldstone, 50));
         register(context, OVERWORLD_DEEP_COLDSTONE_KEY, Feature.ORE, new OreConfiguration(overworld_deep_Coldstone, 50));
@@ -76,10 +82,12 @@ public class ConfiguredFeatures {
         register(context, OVERWORLD_TORITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_torite_ore, 20));
         register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_tin_ore, 20));
         register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_titanium_ore, 20));
+        register(context, NETHER_BLAZIUM_ORE_KEY, Feature.ORE, new OreConfiguration(nether_blazium_ore, 20));
 
-        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(Blocks.BLUEBERRY_BUSH.get())))));
-        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(Blocks.BLACKBERRY_BUSH.get())))));
-        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(Blocks.STRAWBERRY_BUSH.get())))));
+        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLUEBERRY_BUSH.get())))));
+        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLACKBERRY_BUSH.get())))));
+        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.STRAWBERRY_BUSH.get())))));
+        register(context, RASPBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.RASPBERRY_BUSH.get())))));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name){

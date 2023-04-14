@@ -1,8 +1,8 @@
 package com.minestrapp.minestrappolation.events;
 
 import com.minestrapp.minestrappolation.Minestrappolation;
-import com.minestrapp.minestrappolation.init.Blocks;
-import com.minestrapp.minestrappolation.init.Items;
+import com.minestrapp.minestrappolation.init.MBlocks;
+import com.minestrapp.minestrappolation.init.MItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -24,15 +24,15 @@ public class CreativeTabEvent {
     public static void onCustomTab(CreativeModeTabEvent.Register event) {
         event.registerCreativeModeTab(new ResourceLocation(Minestrappolation.ID, "minestrapp"), builder -> {
             builder.title(Component.translatable("itemGroup." + TAB_NAME))
-                    .icon(() -> new ItemStack(Items.SALT_CRYSTAL.get()))
+                    .icon(() -> new ItemStack(MItems.SALT_CRYSTAL.get()))
                     .displayItems((enabledFeatures, output, tab) -> {
-                        Iterator<RegistryObject<Block>> i = Blocks.BLOCKS.getEntries().iterator();
+                        Iterator<RegistryObject<Block>> i = MBlocks.BLOCKS.getEntries().iterator();
                         while(i.hasNext()){
                             Block block = i.next().get();
                             output.accept(block);
                         }
 
-                        Iterator<RegistryObject<Item>> i2 = Items.ITEMS.getEntries().iterator();
+                        Iterator<RegistryObject<Item>> i2 = MItems.ITEMS.getEntries().iterator();
                         while (i2.hasNext()){
                             Item item = i2.next().get();
                             output.accept(item);

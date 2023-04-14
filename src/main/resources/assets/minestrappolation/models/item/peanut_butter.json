@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minestrappolation:item/food/peanut_butter"
+    }
+}

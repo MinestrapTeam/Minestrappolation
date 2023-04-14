@@ -22,4 +22,8 @@ public class Foods {
     public static final FoodProperties CANDY_BLUE_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).fast().alwaysEat().effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 1), 1F).build();
     public static final FoodProperties CANDY_RED_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).fast().alwaysEat().effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 200, 1), 1F).build();
     public static final FoodProperties CANDY_YELLOW_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).fast().alwaysEat().effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 1), 1F).build();
+    public static final FoodProperties BERRY_PIE_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).build();
+    public static final FoodProperties HOT_SAUCE_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).build();
+    public static final FoodProperties PEANUT_BUTTER_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).build();
+    public static final FoodProperties JAM_NUTRITION = new FoodProperties.Builder().nutrition(6).saturationMod(0.6F).build();
 }

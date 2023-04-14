@@ -21,6 +21,8 @@
     "minestrappolation:meurodite_ore",
     "minestrappolation:torite_ore",
     "minestrappolation:tin_ore",
-    "minestrappolation:titanium_ore"
+    "minestrappolation:titanium_ore",
+    "minestrappolation:blazium_ore",
+    "minestrappolation:blazium_block"
   ]
 }

@@ -1,6 +1,7 @@
 package com.minestrapp.minestrappolation.init;
 
 import com.minestrapp.minestrappolation.Minestrappolation;
+import com.minestrapp.minestrappolation.blocks.BlaziumBlock;
 import com.minestrapp.minestrappolation.blocks.BlockBase;
 import com.minestrapp.minestrappolation.blocks.BlockBush;
 import com.minestrapp.minestrappolation.blocks.crops.*;
@@ -14,7 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class Blocks {
+public class MBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Minestrappolation.ID);
     public static final DeferredRegister<Item> BLOCK_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Minestrappolation.ID);
@@ -45,6 +46,9 @@ public class Blocks {
     public static final RegistryObject<Block> TORITE_ORE = BLOCKS.register("torite_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> BLAZIUM_ORE = BLOCKS.register("blazium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+
+    public static final RegistryObject<Block> BLAZIUM_BLOCK = BLOCKS.register("blazium_block", () ->(new BlaziumBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
 
     //CROPS and Plants
     public static final RegistryObject<Block> CABBAGE_CROP = BLOCKS.register("crop_cabbage", () ->(new CropCabbage(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
@@ -54,9 +58,10 @@ public class Blocks {
     public static final RegistryObject<Block> ONION_CROP = BLOCKS.register("crop_onion", () ->(new CropOnion(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
     public static final RegistryObject<Block> PEANUT_CROP = BLOCKS.register("crop_peanuts", () ->(new CropPeanut(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
 
-    public static final RegistryObject<Block> BLUEBERRY_BUSH = BLOCKS.register("blueberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.BLUEBERRY));
-    public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.BLACKBERRY));
-    public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), Items.STRAWBERRY));
+    public static final RegistryObject<Block> BLUEBERRY_BUSH = BLOCKS.register("blueberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), MItems.BLUEBERRY));
+    public static final RegistryObject<Block> BLACKBERRY_BUSH = BLOCKS.register("blackberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), MItems.BLACKBERRY));
+    public static final RegistryObject<Block> STRAWBERRY_BUSH = BLOCKS.register("strawberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), MItems.STRAWBERRY));
+    public static final RegistryObject<Block> RASPBERRY_BUSH = BLOCKS.register("raspberry_bush", () -> new BlockBush(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP), MItems.RASPBERRY));
 
     public static final RegistryObject<Item> COLDSTONE_BLOCKITEM = registerBlockItem(COLDSTONE);
     public static final RegistryObject<Item> COBBLE_COLDSTONE_BLOCKITEM = registerBlockItem(COBBLE_COLDSTONE);
@@ -80,6 +85,9 @@ public class Blocks {
     public static final RegistryObject<Item> TORITE_ORE_BLOCKITEM = registerBlockItem(TORITE_ORE);
     public static final RegistryObject<Item> TIN_ORE_BLOCKITEM = registerBlockItem(TIN_ORE);
     public static final RegistryObject<Item> TITANIUM_ORE_BLOCKITEM = registerBlockItem(TITANIUM_ORE);
+    public static final RegistryObject<Item> BLAZIUM_ORE_BLOCK_BLOCKITEM = registerBlockItem(BLAZIUM_ORE);
+
+    public static final RegistryObject<Item> BLAZIUM_BLOCK_BLOCKITEM = registerBlockItem(BLAZIUM_BLOCK);
 
 
     private static <B extends Block> RegistryObject<Item> registerBlockItem(RegistryObject<B> block){

@@ -1,6 +1,6 @@
 package com.minestrapp.minestrappolation.events;
 
-import com.minestrapp.minestrappolation.init.Items;
+import com.minestrapp.minestrappolation.init.MItems;
 import com.minestrapp.minestrappolation.util.PlayerUtil;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,7 +11,7 @@ public class PlayerEvents {
 
     @SubscribeEvent
     public static void playerTickEvent(TickEvent.PlayerTickEvent event){
-        if(PlayerUtil.isWearingSet(event.player, Items.MEURODITE_BOOTS.get(), Items.MEURODITE_LEGS.get(), Items.MEURODITE_CHEST.get(), Items.MEURODITE_HELMET.get())){
+        if(PlayerUtil.isWearingSet(event.player, MItems.MEURODITE_BOOTS.get(), MItems.MEURODITE_LEGS.get(), MItems.MEURODITE_CHEST.get(), MItems.MEURODITE_HELMET.get())){
 
         }
     }

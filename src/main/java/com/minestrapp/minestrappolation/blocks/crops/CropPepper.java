@@ -1,6 +1,6 @@
 package com.minestrapp.minestrappolation.blocks.crops;
 
-import com.minestrapp.minestrappolation.init.Items;
+import com.minestrapp.minestrappolation.init.MItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.ItemLike;
@@ -19,7 +19,7 @@ public class CropPepper extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return Items.SEEDS_PEPPER.get();
+        return MItems.SEEDS_PEPPER.get();
     }
 
     public VoxelShape getShape(BlockState p_51330_, BlockGetter p_51331_, BlockPos p_51332_, CollisionContext p_51333_) {
