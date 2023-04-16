@@ -64,7 +64,7 @@ public class ConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworld_meurodite_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.MEURODITE_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworld_torite_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TORITE_ORE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworld_tin_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TIN_ORE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_titanium_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.TITANIUM_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_titanium_ore = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.TITANIUM_ORE.get().defaultBlockState()));
 
         List<OreConfiguration.TargetBlockState> nether_blazium_ore = List.of(OreConfiguration.target(netherReplaceable, MBlocks.BLAZIUM_ORE.get().defaultBlockState()));
 
@@ -84,10 +84,10 @@ public class ConfiguredFeatures {
         register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_titanium_ore, 4));
         register(context, NETHER_BLAZIUM_ORE_KEY, Feature.ORE, new OreConfiguration(nether_blazium_ore, 3));
 
-        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLUEBERRY_BUSH.get())))));
-        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLACKBERRY_BUSH.get())))));
-        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.STRAWBERRY_BUSH.get())))));
-        register(context, RASPBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.RASPBERRY_BUSH.get())))));
+        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(25, 5, 4, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLUEBERRY_BUSH.get())))));
+        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(25, 5, 4, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLACKBERRY_BUSH.get())))));
+        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(25, 5, 4, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.STRAWBERRY_BUSH.get())))));
+        register(context, RASPBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(25, 5, 4, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.RASPBERRY_BUSH.get())))));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name){

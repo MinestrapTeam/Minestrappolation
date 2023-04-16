@@ -51,16 +51,16 @@ public class PlacedFeatures {
         register(context, DEEP_OCEANSTONE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_DEEP_OCEANSTONE_KEY), OreReplacement.commonOrePlacement(16, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(0))));
 
         register(context, SALT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_SALT_ORE_KEY), OreReplacement.commonOrePlacement(10, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
-        register(context, MEURODITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_MEURODITE_ORE_KEY), OreReplacement.commonOrePlacement(7, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
-        register(context, TORITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_TORITE_ORE_KEY), OreReplacement.commonOrePlacement(7, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
+        register(context, MEURODITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_MEURODITE_ORE_KEY), OreReplacement.commonOrePlacement(7, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(200))));
+        register(context, TORITE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_TORITE_ORE_KEY), OreReplacement.commonOrePlacement(7, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(200))));
         register(context, TIN_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_TIN_ORE_KEY), OreReplacement.commonOrePlacement(10, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
-        register(context, TITANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_TITANIUM_ORE_KEY), OreReplacement.commonOrePlacement(3, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
+        register(context, TITANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.OVERWORLD_TITANIUM_ORE_KEY), OreReplacement.commonOrePlacement(3, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(0))));
         register(context, BLAZIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.NETHER_BLAZIUM_ORE_KEY), OreReplacement.commonOrePlacement(3, HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(-64), VerticalAnchor.absolute(320))));
 
-        register(context, BLUEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.BLUEBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.BLACKBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.STRAWBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
-        register(context, RASPBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.RASPBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(5), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, BLUEBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.BLUEBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(35), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, BLACKBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.BLACKBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(35), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.STRAWBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(35), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+        register(context, RASPBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ConfiguredFeatures.RASPBERRY_BUSH_KEY), List.of(RarityFilter.onAverageOnceEvery(35), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
     }
 
     private static ResourceKey<PlacedFeature> createKey(String name) {

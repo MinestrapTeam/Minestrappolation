@@ -11,8 +11,8 @@
   },
   "pattern": [
     "XXX",
-    " #",
-    " #"
+    " # ",
+    " # "
   ],
   "result": {
     "item": "minestrappolation:bronze_pickaxe"

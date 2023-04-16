@@ -35,6 +35,7 @@ public class MItems {
     public static final RegistryObject<Item> BLACKBERRY_PIE = ITEMS.register("blackberry_pie", () -> new ItemBase(new Item.Properties().food(Foods.BERRY_PIE_NUTRITION)));
     public static final RegistryObject<Item> STRAWBERRY_PIE = ITEMS.register("strawberry_pie", () -> new ItemBase(new Item.Properties().food(Foods.BERRY_PIE_NUTRITION)));
     public static final RegistryObject<Item> RASPBERRY_PIE = ITEMS.register("raspberry_pie", () -> new ItemBase(new Item.Properties().food(Foods.BERRY_PIE_NUTRITION)));
+    public static final RegistryObject<Item> APPLE_PIE = ITEMS.register("apple_pie", () -> new ItemBase(new Item.Properties().food(Foods.BERRY_PIE_NUTRITION)));
     public static final RegistryObject<Item> SALTED_CHICKEN = ITEMS.register("salted_chicken", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_CHICKEN_NUTRITION)));
     public static final RegistryObject<Item> SALTED_MUTTON = ITEMS.register("salted_mutton", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_MUTTON_NUTRITION)));
     public static final RegistryObject<Item> SALTED_PORKCHOP = ITEMS.register("salted_porkchop", () -> new ItemBase(new Item.Properties().food(Foods.SALTED_PORKCHOP_NUTRITION)));
