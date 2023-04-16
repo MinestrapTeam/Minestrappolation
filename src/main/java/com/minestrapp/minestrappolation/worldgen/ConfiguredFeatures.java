@@ -77,17 +77,17 @@ public class ConfiguredFeatures {
         register(context, OVERWORLD_OCEANSTONE_KEY, Feature.ORE, new OreConfiguration(overworld_oceanstone, 50));
         register(context, OVERWORLD_DEEP_OCEANSTONE_KEY, Feature.ORE, new OreConfiguration(overworld_deep_oceanstone, 50));
 
-        register(context, OVERWORLD_SALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_salt_ore, 20));
-        register(context, OVERWORLD_MEURODITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_meurodite_ore, 20));
-        register(context, OVERWORLD_TORITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_torite_ore, 20));
-        register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_tin_ore, 20));
-        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_titanium_ore, 20));
-        register(context, NETHER_BLAZIUM_ORE_KEY, Feature.ORE, new OreConfiguration(nether_blazium_ore, 20));
+        register(context, OVERWORLD_SALT_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_salt_ore, 15));
+        register(context, OVERWORLD_MEURODITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_meurodite_ore, 7));
+        register(context, OVERWORLD_TORITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_torite_ore, 7));
+        register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_tin_ore, 10));
+        register(context, OVERWORLD_TITANIUM_ORE_KEY, Feature.ORE, new OreConfiguration(overworld_titanium_ore, 4));
+        register(context, NETHER_BLAZIUM_ORE_KEY, Feature.ORE, new OreConfiguration(nether_blazium_ore, 3));
 
-        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLUEBERRY_BUSH.get())))));
-        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLACKBERRY_BUSH.get())))));
-        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.STRAWBERRY_BUSH.get())))));
-        register(context, RASPBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 6, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.RASPBERRY_BUSH.get())))));
+        register(context, BLUEBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLUEBERRY_BUSH.get())))));
+        register(context, BLACKBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.BLACKBERRY_BUSH.get())))));
+        register(context, STRAWBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.STRAWBERRY_BUSH.get())))));
+        register(context, RASPBERRY_BUSH_KEY, Feature.FLOWER, new RandomPatchConfiguration(32, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(MBlocks.RASPBERRY_BUSH.get())))));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name){

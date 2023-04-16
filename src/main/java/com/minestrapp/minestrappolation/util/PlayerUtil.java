@@ -9,13 +9,7 @@ import java.util.List;
 
 public class PlayerUtil {
 
-    public static boolean isWearingSet(Player player, Item helmet, Item feet, Item legs, Item chest){
-        List<Item> armorSet = new ArrayList<>();
-        armorSet.add(helmet);
-        armorSet.add(feet);
-        armorSet.add(legs);
-        armorSet.add(chest);
-
+    public static boolean isWearingSet(Player player, List<Item> armorSet){
         for(ItemStack itemStack: player.getArmorSlots()){
             Item wornItem = itemStack.getItem();
             if(!armorSet.contains(wornItem)){

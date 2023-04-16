@@ -70,9 +70,9 @@ public class MItems {
     public static final RegistryObject<Item> REDROCK_SWORD = ITEMS.register("redrock_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_SWORD = ITEMS.register("icestone_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> OCEANSTONE_SWORD = ITEMS.register("oceanstone_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_SWORD = ITEMS.register("meurodite_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_SWORD = ITEMS.register("torite_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_SWORD = ITEMS.register("meurodite_sword", () -> new SwordItem(MToolTiers.MEURODITE_MAT, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_SWORD = ITEMS.register("torite_sword", () -> new SwordItem(MToolTiers.TORITE_MAT, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword", () -> new SwordItem(MToolTiers.TITANIUM_MAT, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_SWORD = ITEMS.register("bronze_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
 
@@ -80,41 +80,41 @@ public class MItems {
     public static final RegistryObject<Item> REDROCK_PICKAXE = ITEMS.register("redrock_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_PICKAXE = ITEMS.register("icestone_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> OCEANSTONE_PICKAXE = ITEMS.register("oceanstone_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_PICKAXE = ITEMS.register("meurodite_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_PICKAXE = ITEMS.register("torite_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new PickaxeItem(Tiers.STONE, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_PICKAXE = ITEMS.register("meurodite_pickaxe", () -> new PickaxeItem(MToolTiers.MEURODITE_MAT, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_PICKAXE = ITEMS.register("torite_pickaxe", () -> new PickaxeItem(MToolTiers.TORITE_MAT, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register("titanium_pickaxe", () -> new PickaxeItem(MToolTiers.TITANIUM_MAT, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", () -> new PickaxeItem(MToolTiers.STEEL_MAT, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_PICKAXE = ITEMS.register("bronze_pickaxe", () -> new PickaxeItem(MToolTiers.BRONZE_MAT, 1, -2.8F, new Item.Properties()));
 
     public static final RegistryObject<Item> COLDSTONE_AXE = ITEMS.register("coldstone_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
     public static final RegistryObject<Item> REDROCK_AXE = ITEMS.register("redrock_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_AXE = ITEMS.register("icestone_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
     public static final RegistryObject<Item> OCEANSTONE_AXE = ITEMS.register("oceanstone_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_AXE = ITEMS.register("meurodite_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_AXE = ITEMS.register("torite_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new AxeItem(Tiers.STONE, 7.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_AXE = ITEMS.register("meurodite_axe", () -> new AxeItem(MToolTiers.MEURODITE_MAT, 7.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_AXE = ITEMS.register("torite_axe", () -> new AxeItem(MToolTiers.TORITE_MAT, 7.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register("titanium_axe", () -> new AxeItem(MToolTiers.TITANIUM_MAT, 7.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", () -> new AxeItem(MToolTiers.STEEL_MAT, 7.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_AXE = ITEMS.register("bronze_axe", () -> new AxeItem(MToolTiers.BRONZE_MAT, 7.0F, -3.2F, new Item.Properties()));
 
     public static final RegistryObject<Item> COLDSTONE_SHOVEL = ITEMS.register("coldstone_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> REDROCK_SHOVEL = ITEMS.register("redrock_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_SHOVEL = ITEMS.register("icestone_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> OCEANSTONE_SHOVEL = ITEMS.register("oceanstone_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_SHOVEL = ITEMS.register("meurodite_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_SHOVEL = ITEMS.register("torite_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ShovelItem(Tiers.STONE, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_SHOVEL = ITEMS.register("meurodite_shovel", () -> new ShovelItem(MToolTiers.MEURODITE_MAT, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_SHOVEL = ITEMS.register("torite_shovel", () -> new ShovelItem(MToolTiers.TORITE_MAT, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register("titanium_shovel", () -> new ShovelItem(MToolTiers.TITANIUM_MAT, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", () -> new ShovelItem(MToolTiers.STEEL_MAT, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_SHOVEL = ITEMS.register("bronze_shovel", () -> new ShovelItem(MToolTiers.BRONZE_MAT, 1.5F, -3.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> COLDSTONE_HOE = ITEMS.register("coldstone_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
     public static final RegistryObject<Item> REDROCK_HOE = ITEMS.register("redrock_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_HOE = ITEMS.register("icestone_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
     public static final RegistryObject<Item> OCEANSTONE_HOE = ITEMS.register("oceanstone_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_HOE = ITEMS.register("meurodite_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_HOE = ITEMS.register("torite_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new HoeItem(Tiers.STONE, -1, -2.0F, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_HOE = ITEMS.register("meurodite_hoe", () -> new HoeItem(MToolTiers.MEURODITE_MAT, -1, -2.0F, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_HOE = ITEMS.register("torite_hoe", () -> new HoeItem(MToolTiers.TORITE_MAT, -1, -2.0F, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register("titanium_hoe", () -> new HoeItem(MToolTiers.TITANIUM_MAT, -1, -2.0F, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", () -> new HoeItem(MToolTiers.STEEL_MAT, -1, -2.0F, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new HoeItem(MToolTiers.BRONZE_MAT, -1, -2.0F, new Item.Properties()));
 
     //ARMORS
     public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helm", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
