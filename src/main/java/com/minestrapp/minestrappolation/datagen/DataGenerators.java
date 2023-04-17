@@ -25,5 +25,6 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new WorldGenProvider(packOutput, lookupProvider));
         generator.addProvider(event.includeServer(), new LangGen(packOutput, Minestrappolation.ID, "en_us"));
+        generator.addProvider(event.includeServer(), LootGen.create(packOutput));
     }
 }

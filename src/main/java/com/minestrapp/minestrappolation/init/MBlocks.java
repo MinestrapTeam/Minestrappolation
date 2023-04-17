@@ -48,7 +48,14 @@ public class MBlocks {
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> BLAZIUM_ORE = BLOCKS.register("blazium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
 
+    public static final RegistryObject<Block> SALT_BLOCK = BLOCKS.register("salt_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> MEURODITE_BLOCK = BLOCKS.register("meurodite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TORITE_BLOCK = BLOCKS.register("torite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> BLAZIUM_BLOCK = BLOCKS.register("blazium_block", () ->(new BlaziumBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
 
     //CROPS and Plants
     public static final RegistryObject<Block> CABBAGE_CROP = BLOCKS.register("crop_cabbage", () ->(new CropCabbage(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));
@@ -87,8 +94,14 @@ public class MBlocks {
     public static final RegistryObject<Item> TITANIUM_ORE_BLOCKITEM = registerBlockItem(TITANIUM_ORE);
     public static final RegistryObject<Item> BLAZIUM_ORE_BLOCK_BLOCKITEM = registerBlockItem(BLAZIUM_ORE);
 
+    public static final RegistryObject<Item> SALT_BLOCK_BLOCKITEM = registerBlockItem(SALT_BLOCK);
+    public static final RegistryObject<Item> MEURODITE_BLOCK_BLOCKITEM = registerBlockItem(MEURODITE_BLOCK);
+    public static final RegistryObject<Item> TORITE_BLOCK_BLOCKITEM = registerBlockItem(TORITE_BLOCK);
+    public static final RegistryObject<Item> TIN_BLOCK_BLOCKITEM = registerBlockItem(TIN_BLOCK);
+    public static final RegistryObject<Item> TITANIUM_BLOCK_BLOCKITEM = registerBlockItem(TITANIUM_BLOCK);
     public static final RegistryObject<Item> BLAZIUM_BLOCK_BLOCKITEM = registerBlockItem(BLAZIUM_BLOCK);
-
+    public static final RegistryObject<Item> STEEL_BLOCK_BLOCKITEM = registerBlockItem(STEEL_BLOCK);
+    public static final RegistryObject<Item> BRONZE_BLOCK_BLOCKITEM = registerBlockItem(BRONZE_BLOCK);
 
     private static <B extends Block> RegistryObject<Item> registerBlockItem(RegistryObject<B> block){
         return BLOCK_ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

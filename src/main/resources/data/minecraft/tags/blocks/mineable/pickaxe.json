@@ -17,12 +17,21 @@
     "minestrappolation:cobble_oceanstone",
     "minestrappolation:deep_oceanstone",
     "minestrappolation:cobble_deep_oceanstone",
+
     "minestrappolation:salt_ore",
     "minestrappolation:meurodite_ore",
     "minestrappolation:torite_ore",
     "minestrappolation:tin_ore",
     "minestrappolation:titanium_ore",
     "minestrappolation:blazium_ore",
-    "minestrappolation:blazium_block"
+
+    "minestrappolation:salt_block",
+    "minestrappolation:meurodite_block",
+    "minestrappolation:torite_block",
+    "minestrappolation:tin_block",
+    "minestrappolation:titanium_block",
+    "minestrappolation:blazium_block",
+    "minestrappolation:steel_block",
+    "minestrappolation:bronze_block"
   ]
 }

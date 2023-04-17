@@ -118,35 +118,40 @@ public class MItems {
     public static final RegistryObject<Item> BRONZE_HOE = ITEMS.register("bronze_hoe", () -> new HoeItem(MToolTiers.BRONZE_MAT, -1, -2.0F, new Item.Properties()));
 
     //ARMORS
-    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helm", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_CHEST = ITEMS.register("titanium_chest", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_LEGS = ITEMS.register("titanium_legs", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_feet", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register("titanium_helmet", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_CHEST = ITEMS.register("titanium_chestplate", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_LEGS = ITEMS.register("titanium_leggings", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots", () -> new ArmorItem(ArmorTiers.TITANIUM_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
-    public static final RegistryObject<Item> MEURODITE_HELMET = ITEMS.register("meurodite_helm", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_CHEST = ITEMS.register("meurodite_chest", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_LEGS = ITEMS.register("meurodite_legs", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> MEURODITE_BOOTS = ITEMS.register("meurodite_feet", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_HELMET = ITEMS.register("meurodite_helmet", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_CHEST = ITEMS.register("meurodite_chestplate", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_LEGS = ITEMS.register("meurodite_leggings", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> MEURODITE_BOOTS = ITEMS.register("meurodite_boots", () -> new ArmorItem(ArmorTiers.MEURODITE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
-    public static final RegistryObject<Item> TORITE_HELMET = ITEMS.register("torite_helm", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_CHEST = ITEMS.register("torite_chest", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_LEGS = ITEMS.register("torite_legs", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> TORITE_BOOTS = ITEMS.register("torite_feet", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_HELMET = ITEMS.register("torite_helmet", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_CHEST = ITEMS.register("torite_chestplate", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_LEGS = ITEMS.register("torite_leggings", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> TORITE_BOOTS = ITEMS.register("torite_boots", () -> new ArmorItem(ArmorTiers.TORITE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
-    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helm", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> TIN_CHEST = ITEMS.register("tin_chest", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> TIN_LEGS = ITEMS.register("tin_legs", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_feet", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> TIN_HELMET = ITEMS.register("tin_helmet", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> TIN_CHEST = ITEMS.register("tin_chestplate", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> TIN_LEGS = ITEMS.register("tin_leggings", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> TIN_BOOTS = ITEMS.register("tin_boots", () -> new ArmorItem(ArmorTiers.TIN_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
-    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helm", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_CHEST = ITEMS.register("steel_chest", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_LEGS = ITEMS.register("steel_legs", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_feet", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_HELMET = ITEMS.register("steel_helmet", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_CHEST = ITEMS.register("steel_chestplate", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_LEGS = ITEMS.register("steel_leggings", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_BOOTS = ITEMS.register("steel_boots", () -> new ArmorItem(ArmorTiers.STEEL_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
-    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helm", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_CHEST = ITEMS.register("bronze_chest", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_LEGS = ITEMS.register("bronze_legs", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
-    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_feet", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_HELMET = ITEMS.register("bronze_helmet", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_CHEST = ITEMS.register("bronze_chestplate", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_LEGS = ITEMS.register("bronze_leggings", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> BRONZE_BOOTS = ITEMS.register("bronze_boots", () -> new ArmorItem(ArmorTiers.BRONZE_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
+
+    public static final RegistryObject<Item> BLAZIUM_HELMET = ITEMS.register("blazium_helmet", () -> new ArmorItem(ArmorTiers.BLAZIUM_ARMOR_MAT, EquipmentSlot.HEAD, new Item.Properties()));
+    public static final RegistryObject<Item> BLAZIUM_CHEST = ITEMS.register("blazium_chestplate", () -> new ArmorItem(ArmorTiers.BLAZIUM_ARMOR_MAT, EquipmentSlot.CHEST, new Item.Properties()));
+    public static final RegistryObject<Item> BLAZIUM_LEGS = ITEMS.register("blazium_leggings", () -> new ArmorItem(ArmorTiers.BLAZIUM_ARMOR_MAT, EquipmentSlot.LEGS, new Item.Properties()));
+    public static final RegistryObject<Item> BLAZIUM_BOOTS = ITEMS.register("blazium_boots", () -> new ArmorItem(ArmorTiers.BLAZIUM_ARMOR_MAT, EquipmentSlot.FEET, new Item.Properties()));
 
 
 }
