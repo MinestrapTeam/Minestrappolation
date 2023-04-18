@@ -1,0 +1,11 @@
+{
+  "type": "minestrappolation:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/zombie"
+    }
+  ],
+  "item": "minestrappolation:candy_red",
+  "chance": 0.75
+}

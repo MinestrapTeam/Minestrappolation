@@ -3,6 +3,7 @@ package com.minestrapp.minestrappolation;
 import com.minestrapp.minestrappolation.init.ClientInit;
 import com.minestrapp.minestrappolation.init.MBlocks;
 import com.minestrapp.minestrappolation.init.MItems;
+import com.minestrapp.minestrappolation.init.MLootModifier;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,8 @@ public class Minestrappolation {
         MBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MBlocks.BLOCK_ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
+        MLootModifier.LOOT_MODIFIER.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> FMLJavaModLoadingContext.get().getModEventBus().addListener(ClientInit::init));
     }

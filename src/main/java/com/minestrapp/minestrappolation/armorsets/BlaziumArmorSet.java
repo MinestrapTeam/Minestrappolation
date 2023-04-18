@@ -7,21 +7,23 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.targeting.TargetingConditions;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.phys.AABB;
 
-public class MeuroditeArmorSet extends ArmorSet{
+public class BlaziumArmorSet extends ArmorSet{
 
-    int rangeXZ = 10;
-    int rangeY = 5;
+    int rangeXZ = 2;
+    int rangeY = 2;
 
-    public MeuroditeArmorSet(Item helmet, Item feet, Item legs, Item chest) {
+    public BlaziumArmorSet(Item helmet, Item feet, Item legs, Item chest) {
         super(helmet, feet, legs, chest);
     }
 
     @Override
     public void doSetEffect(Player player, ServerLevel world){
+        double chance = world.getRandom().nextDouble();
         for(LivingEntity entity: world.getNearbyEntities(LivingEntity.class, TargetingConditions.forNonCombat(), player, player.getBoundingBox().inflate(rangeXZ,rangeY,rangeXZ))){
-            entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 5));
+            if(chance >= 0.99D) {
+                entity.setSecondsOnFire(1);
+            }
         }
     }
 }

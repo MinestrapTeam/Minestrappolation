@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minestrappolation:blackberry"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minestrappolation:blueberry"
+    },
+    {
+      "item": "minestrappolation:strawberry"
+    },
+    {
+      "item": "minestrappolation:raspberry"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minestrappolation:berry_jam"
+  }
+}

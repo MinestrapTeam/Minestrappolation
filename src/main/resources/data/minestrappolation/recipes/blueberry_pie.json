@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minestrappolation:dough"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minestrappolation:blueberry"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minestrappolation:blueberry_pie"
+  }
+}

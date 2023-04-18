@@ -67,6 +67,7 @@ public class MItems {
 
     //TOOLS and WEAPONS
     //TODO Fix all tools and weapons stats
+
     public static final RegistryObject<Item> COLDSTONE_SWORD = ITEMS.register("coldstone_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> REDROCK_SWORD = ITEMS.register("redrock_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> ICESTONE_SWORD = ITEMS.register("icestone_sword", () -> new SwordItem(Tiers.STONE, 3, -2.4F, new Item.Properties()));

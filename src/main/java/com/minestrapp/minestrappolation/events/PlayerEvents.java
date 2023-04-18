@@ -15,7 +15,7 @@ public class PlayerEvents {
 
     @SubscribeEvent
     public static void playerTickEvent(TickEvent.PlayerTickEvent event){
-        for(ArmorSet armorSet: ArmorSetHolder.armorSets.values()){
+        for(ArmorSet armorSet: ArmorSetHolder.armorSets){
             if(PlayerUtil.isWearingSet(event.player, armorSet.getArmorSet())){
                 if(event.side == LogicalSide.SERVER){
                     armorSet.doSetEffect(event.player, event.player.getServer().overworld());

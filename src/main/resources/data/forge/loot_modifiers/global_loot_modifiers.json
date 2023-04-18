@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    "minestrappolation:cabbage_seeds_from_grass",
+    "minestrappolation:celery_seeds_from_grass",
+    "minestrappolation:onion_from_grass",
+    "minestrappolation:peanuts_from_grass",
+    "minestrappolation:pepper_seeds_from_grass",
+    "minestrappolation:tomato_seeds_from_grass",
+    "minestrappolation:candy_from_zombie",
+    "minestrappolation:candy_from_creeper",
+    "minestrappolation:candy_from_skeleton"
+  ]
+}
