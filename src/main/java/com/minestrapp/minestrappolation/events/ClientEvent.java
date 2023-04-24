@@ -19,7 +19,7 @@ public class ClientEvent {
             if(!InputConstants.isKeyDown(Minecraft.getInstance().getWindow().getWindow(), Keys.TOOLTIP_KEY.getKey().getValue())){
                 event.getToolTip().add(Component.literal("Press " + Keys.TOOLTIP_KEY.getKey().getDisplayName().getString() + " for more info").withStyle(ChatFormatting.YELLOW));
             } else {
-                event.getToolTip().add(Component.literal(tooltipMessage.getShiftInfo()).withStyle(ChatFormatting.LIGHT_PURPLE));
+                event.getToolTip().add(Component.literal(tooltipMessage.getShiftInfo(event.getItemStack())).withStyle(ChatFormatting.LIGHT_PURPLE));
             }
         }
     }

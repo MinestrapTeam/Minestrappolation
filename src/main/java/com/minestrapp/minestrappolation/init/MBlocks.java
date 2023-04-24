@@ -22,40 +22,40 @@ public class MBlocks {
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties();
 
     //BIOME STONE
-    public static final RegistryObject<Block> COLDSTONE = BLOCKS.register("coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_COLDSTONE = BLOCKS.register("cobble_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> DEEP_COLDSTONE = BLOCKS.register("deep_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_DEEP_COLDSTONE = BLOCKS.register("cobble_deep_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> REDROCK = BLOCKS.register("redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_REDROCK = BLOCKS.register("cobble_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> DEEP_REDROCK = BLOCKS.register("deep_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_DEEP_REDROCK = BLOCKS.register("cobble_deep_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> ICESTONE = BLOCKS.register("icestone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_ICESTONE = BLOCKS.register("cobble_icestone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> GLACIERSTONE = BLOCKS.register("glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_GLACIERSTONE = BLOCKS.register("cobble_glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> OCEANSTONE = BLOCKS.register("oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_OCEANSTONE = BLOCKS.register("cobble_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> DEEP_OCEANSTONE = BLOCKS.register("deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> COBBLE_DEEP_OCEANSTONE = BLOCKS.register("cobble_deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 8F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COLDSTONE = BLOCKS.register("coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_COLDSTONE = BLOCKS.register("cobble_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> DEEP_COLDSTONE = BLOCKS.register("deep_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_DEEP_COLDSTONE = BLOCKS.register("cobble_deep_coldstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> REDROCK = BLOCKS.register("redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_REDROCK = BLOCKS.register("cobble_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> DEEP_REDROCK = BLOCKS.register("deep_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_DEEP_REDROCK = BLOCKS.register("cobble_deep_redrock", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> ICESTONE = BLOCKS.register("icestone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_ICESTONE = BLOCKS.register("cobble_icestone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> GLACIERSTONE = BLOCKS.register("glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_GLACIERSTONE = BLOCKS.register("cobble_glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> OCEANSTONE = BLOCKS.register("oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_OCEANSTONE = BLOCKS.register("cobble_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> DEEP_OCEANSTONE = BLOCKS.register("deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> COBBLE_DEEP_OCEANSTONE = BLOCKS.register("cobble_deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
 
     //ORE
     //TODO Fix harvest levels
-    public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> MEURODITE_ORE = BLOCKS.register("meurodite_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TORITE_ORE = BLOCKS.register("torite_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> BLAZIUM_ORE = BLOCKS.register("blazium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> SALT_ORE = BLOCKS.register("salt_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 3F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> MEURODITE_ORE = BLOCKS.register("meurodite_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 3F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TORITE_ORE = BLOCKS.register("torite_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 3F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register("titanium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 3F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> BLAZIUM_ORE = BLOCKS.register("blazium_ore", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(3F, 3F).requiresCorrectToolForDrops())));
 
-    public static final RegistryObject<Block> SALT_BLOCK = BLOCKS.register("salt_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> MEURODITE_BLOCK = BLOCKS.register("meurodite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TORITE_BLOCK = BLOCKS.register("torite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> BLAZIUM_BLOCK = BLOCKS.register("blazium_block", () ->(new BlaziumBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> SALT_BLOCK = BLOCKS.register("salt_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> MEURODITE_BLOCK = BLOCKS.register("meurodite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TORITE_BLOCK = BLOCKS.register("torite_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register("titanium_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> BLAZIUM_BLOCK = BLOCKS.register("blazium_block", () ->(new BlaziumBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(5F, 6F).requiresCorrectToolForDrops())));
 
     //CROPS and Plants
     public static final RegistryObject<Block> CABBAGE_CROP = BLOCKS.register("crop_cabbage", () ->(new CropCabbage(BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.CROP))));

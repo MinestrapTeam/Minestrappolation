@@ -1,6 +1,8 @@
 package com.minestrapp.minestrappolation.items;
 
 import com.minestrapp.minestrappolation.interfaces.IShiftableTooltip;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 
 public class ItemBaseWithTip extends ItemBase implements IShiftableTooltip {
 
@@ -12,7 +14,7 @@ public class ItemBaseWithTip extends ItemBase implements IShiftableTooltip {
     }
 
     @Override
-    public String getShiftInfo() {
+    public String getShiftInfo(ItemStack stack) {
         return this.tip;
     }
 }

@@ -3,6 +3,7 @@ package com.minestrapp.minestrappolation.init;
 import com.minestrapp.minestrappolation.Minestrappolation;
 import com.minestrapp.minestrappolation.items.ItemBase;
 import com.minestrapp.minestrappolation.items.ItemBaseWithTip;
+import com.minestrapp.minestrappolation.items.SoulGemItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -48,6 +49,7 @@ public class MItems {
     public static final RegistryObject<Item> HOT_SAUCE = ITEMS.register("hot_sauce", () -> new ItemBase((new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(Foods.HOT_SAUCE_NUTRITION))));
     public static final RegistryObject<Item> BERRY_JAM = ITEMS.register("berry_jam", () -> new ItemBase((new Item.Properties().craftRemainder(Items.GLASS_BOTTLE).food(Foods.BERRY_PIE_NUTRITION))));
     public static final RegistryObject<Item> DOUGH = ITEMS.register("dough", () -> new ItemBase((new Item.Properties())));
+    public static final RegistryObject<Item> SOUL_GEM = ITEMS.register("soul_gem", () -> new SoulGemItem((new Item.Properties().defaultDurability(1))));
 
     //INGOTS and MINERALS
     public static final RegistryObject<Item> MEURODITE_GEM = ITEMS.register("meurodite_gem", () -> new ItemBase(new Item.Properties()));
