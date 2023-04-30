@@ -31,7 +31,7 @@ public class MLootTables extends BlockLootSubProvider {
         dropSelf(MBlocks.COBBLE_ICESTONE.get());
         dropOther(MBlocks.GLACIERSTONE.get(), MBlocks.COBBLE_GLACIERSTONE.get());
         dropSelf(MBlocks.COBBLE_GLACIERSTONE.get());
-        dropOther(MBlocks.OCEANSTONE.get(), MBlocks.COBBLE_OCEANSTONE.get());
+        dropOther(MBlocks.CASCADING_DRIPSTONE.get(), MBlocks.COBBLE_OCEANSTONE.get());
         dropSelf(MBlocks.COBBLE_OCEANSTONE.get());
         dropOther(MBlocks.DEEP_OCEANSTONE.get(), MBlocks.COBBLE_DEEP_OCEANSTONE.get());
         dropSelf(MBlocks.COBBLE_DEEP_OCEANSTONE.get());

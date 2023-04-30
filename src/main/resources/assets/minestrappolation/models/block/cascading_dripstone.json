@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "minestrappolation:block/stone/cascading_dripstone_top",      
+        "side": "minestrappolation:block/stone/cascading_dripstone_side",
+        "bottom": "minecraft:block/dripstone_block"
+    }
+}

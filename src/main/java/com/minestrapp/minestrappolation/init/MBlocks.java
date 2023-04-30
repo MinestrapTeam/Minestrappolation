@@ -34,7 +34,7 @@ public class MBlocks {
     public static final RegistryObject<Block> COBBLE_ICESTONE = BLOCKS.register("cobble_icestone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> GLACIERSTONE = BLOCKS.register("glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> COBBLE_GLACIERSTONE = BLOCKS.register("cobble_glacierstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
-    public static final RegistryObject<Block> OCEANSTONE = BLOCKS.register("oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
+    public static final RegistryObject<Block> CASCADING_DRIPSTONE = BLOCKS.register("cascading_dripstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> COBBLE_OCEANSTONE = BLOCKS.register("cobble_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> DEEP_OCEANSTONE = BLOCKS.register("deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
     public static final RegistryObject<Block> COBBLE_DEEP_OCEANSTONE = BLOCKS.register("cobble_deep_oceanstone", () ->(new BlockBase(BlockBehaviour.Properties.of(Material.STONE).strength(2F, 6F).requiresCorrectToolForDrops())));
@@ -82,7 +82,7 @@ public class MBlocks {
     public static final RegistryObject<Item> COBBLE_ICESTONE_BLOCKITEM = registerBlockItem(COBBLE_ICESTONE);
     public static final RegistryObject<Item> GLACIERSTONE_BLOCKITEM = registerBlockItem(GLACIERSTONE);
     public static final RegistryObject<Item> COBBLE_GLACIERSTONE_BLOCKITEM = registerBlockItem(COBBLE_GLACIERSTONE);
-    public static final RegistryObject<Item> OCEANSTONE_BLOCKITEM = registerBlockItem(OCEANSTONE);
+    public static final RegistryObject<Item> CASCADING_DRIPSTONE_BLOCKITEM = registerBlockItem(CASCADING_DRIPSTONE);
     public static final RegistryObject<Item> COBBLE_OCEANSTONE_BLOCKITEM = registerBlockItem(COBBLE_OCEANSTONE);
     public static final RegistryObject<Item> DEEP_OCEANSTONE_BLOCKITEM = registerBlockItem(DEEP_OCEANSTONE);
     public static final RegistryObject<Item> COBBLE_DEEP_OCEANSTONE_BLOCKITEM = registerBlockItem(COBBLE_DEEP_OCEANSTONE);

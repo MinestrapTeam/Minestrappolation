@@ -57,7 +57,7 @@ public class ConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworld_deep_redrock = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.DEEP_REDROCK.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworld_icestone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.ICESTONE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworld_glacierstone = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.GLACIERSTONE.get().defaultBlockState()));
-        List<OreConfiguration.TargetBlockState> overworld_oceanstone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.OCEANSTONE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworld_oceanstone = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.CASCADING_DRIPSTONE.get().defaultBlockState()));
         List<OreConfiguration.TargetBlockState> overworld_deep_oceanstone = List.of(OreConfiguration.target(deepslateReplaceable, MBlocks.DEEP_OCEANSTONE.get().defaultBlockState()));
 
         List<OreConfiguration.TargetBlockState> overworld_salt_ore = List.of(OreConfiguration.target(stoneReplaceable, MBlocks.SALT_ORE.get().defaultBlockState()));
