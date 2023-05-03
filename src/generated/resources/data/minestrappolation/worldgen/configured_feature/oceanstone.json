@@ -6,7 +6,7 @@
     "targets": [
       {
         "state": {
-          "Name": "minestrappolation:oceanstone"
+          "Name": "minestrappolation:cascading_dripstone"
         },
         "target": {
           "predicate_type": "minecraft:tag_match",
