@@ -1,6 +1,8 @@
 {
-    "parent": "block/cube_all",
+    "parent": "block/cube_bottom_top",
     "textures": {
-        "all": "minestrappolation:block/stone/deep_redrock"
+        "top": "minestrappolation:block/stone/shalestone_top",      
+        "side": "minestrappolation:block/stone/shalestone_side",
+        "bottom": "minestrappolation:block/stone/shalestone_top"
     }
 }

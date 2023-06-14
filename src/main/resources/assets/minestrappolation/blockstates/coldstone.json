@@ -1,7 +1,31 @@
 {
     "variants": {
         "": [
-            { "model": "minestrappolation:block/coldstone" }
+            { "model": "minestrappolation:block/coldstone" },
+            { "model": "minestrappolation:block/coldstone", "x": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 270 },
+            { "model": "minestrappolation:block/coldstone", "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 90, "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 180, "y": 270 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 90 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 180 },
+            { "model": "minestrappolation:block/coldstone", "x": 270, "y": 270 }
         ]
     }
 }
