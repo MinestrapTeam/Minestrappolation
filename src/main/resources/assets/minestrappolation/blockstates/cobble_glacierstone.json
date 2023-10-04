@@ -1,7 +1,7 @@
 {
     "variants": {
         "": [
-            { "model": "minestrappolation:block/cobble_glacierstone" }
+            { "model": "minestrappolation:block/cracked_glacierrock" }
         ]
     }
 }

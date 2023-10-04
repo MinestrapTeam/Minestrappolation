@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "minestrappolation:block/stone/cobbled_dripstone_top",      
+        "side": "minestrappolation:block/stone/cobbled_dripstone_side",
+        "bottom": "minestrappolation:block/stone/cobbled_dripstone_top"
+    }
+}

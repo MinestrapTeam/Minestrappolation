@@ -1,7 +1,7 @@
 {
     "variants": {
         "": [
-            { "model": "minestrappolation:block/cobble_oceanstone" }
+            { "model": "minestrappolation:block/cobbled_dripstone" }
         ]
     }
 }

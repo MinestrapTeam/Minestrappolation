@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "minestrappolation:block/stone/cobbled_glacierstone"
-    }
-}
